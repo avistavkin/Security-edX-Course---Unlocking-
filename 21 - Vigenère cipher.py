@@ -6,7 +6,10 @@ def codewordadjust (plaintext, codeword):
     x           = lenpl / lenco
     y           = lenpl // lenco
     codeworda   = ""
-    if y == 0: i = 0 # тут нужен будет обработчик если текст короче кодового слова
+    if y == 0:  # тут нужен будет обработчик если текст короче кодового слова
+        i = 0
+        for i in range (lenpl):
+            codeworda += codeword [i]
     #    print ("y=", y)
     else:
         
@@ -54,7 +57,8 @@ def encrypt (plaintext, codeworda):
 
 
 #plaintext = input('plaintext...: ')
-plaintext   = "ATTACKATDAWNATTACKATDAWN"
+plaintext   = "ATT"
+#ACKATDAWNATTACKATDAWN"
 print ("plaintext= ",plaintext)
 #codeword = input('codeword...: ')
 codeword    = "LEMON"
