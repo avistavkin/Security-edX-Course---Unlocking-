@@ -57,8 +57,7 @@ def encrypt (plaintext, codeworda):
 
 
 #plaintext = input('plaintext...: ')
-plaintext   = "ATT"
-#ACKATDAWNATTACKATDAWN"
+plaintext   = "ATTACKATDAWNATTACKATDAWN"
 print ("plaintext= ",plaintext)
 #codeword = input('codeword...: ')
 codeword    = "LEMON"
