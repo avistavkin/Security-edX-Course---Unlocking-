@@ -8,9 +8,9 @@ and keeps everything modulo  216 .
 import itertools
 
 def simple_hash(s):
-    r = 7
+    r = 0 # r = 7
     for c in s:
-        r = (r * 31 + ord(c)) % 2**16
+        r = (r + ord(c) * 3 + 17)  % 791 #r = (r * 31 + ord(c)) % 2**16
 
     return r
 
@@ -37,7 +37,7 @@ print ("Hash s:", hashs)
 
 s2 = crack (s)
 
-print ("Collition%", s2)
+print ("Collition:", s2)
 
 hashs2 = simple_hash(s2)
 
