@@ -18,3 +18,6 @@ print ("xor=", int(xor))
 
 hasharbitrary = 1.17 * (2 ** 12)
 print ("hasharbitrary", math.ceil(hasharbitrary))
+
+hashfindcollision = 0.69 * (2**24)
+print ("hashfindcollision", math.ceil(hashfindcollision))
