@@ -5,7 +5,7 @@ numberofchars = 26+26+10
 numberofcombination = passlenth ** numberofchars
 print (numberofcombination)
 timetocalculate = numberofcombination * 0.01
-print (int(timetocalculate))
+print ("timetocalculate:", int(timetocalculate))
 print (type(timetocalculate))
 print ("time in days", int(timetocalculate / 86400))
 
