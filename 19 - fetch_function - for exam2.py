@@ -34,7 +34,7 @@ def did_fetch(user, url):
 # for i in range (3):
 url1 = "http://www.google.com" 
 
-#cache1 = fetch (url1)
+#cache1 = fetch (url1) 
 #print ("!!!!!!!!!!!!cache1:", cache1)
 
 url = "http://www.google.com"
